@@ -1,9 +1,9 @@
-# docker-cmake-ninja
-docker image for building using cmake, ninja, gcc arm embedded compiler
+# sdk6buildtools
+docker image for building sdk6 using cmake, ninja, gcc arm embedded compiler
 
 
 To build docker image:
-```docker build -t docker-cmake-ninja .```
+```docker build -t sdk6buildtools .```
 
 To start container and keep running: (normally not needed because container only needs to be alive while working)
-```docker run -dit docker-cmake-ninja```
+```docker run -dit sdk6buildtools```
