@@ -9,4 +9,3 @@ RUN ./aws/install
 # install development tools
 RUN apt install -y git nano
 ENTRYPOINT ["tail", "-f", "/dev/null"]
-COPY setup.sh /root/setup.sh
